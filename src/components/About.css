@@ -1,0 +1,48 @@
+.element-container {
+    background-color: rgb(251, 244, 254);
+}
+
+.menu {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .menu button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #213168;
+    color: #213168;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .menu button.active {
+    background-color: #213168;
+    color: white;
+  }
+
+  .menu button:hover {
+    background-color: #e2d6ff;
+    color: #213168;
+    border-color: #e2d6ff;
+  }
+  
+  .content {
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    border: 2px solid #e2d6ff;
+    padding: 2rem;
+    background-color: white;
+  }
+
+  #curriculum {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
