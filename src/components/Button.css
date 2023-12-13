@@ -1,0 +1,37 @@
+.transparent-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .transparent-button:hover {
+    background-color: #e2d6ff;
+    color: #213168;
+    border-color: #e2d6ff;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #213168;
+    color: #213168;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #e2d6ff;
+    color: #213168;
+    border-color: #e2d6ff;
+  }

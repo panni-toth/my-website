@@ -1,0 +1,39 @@
+.other-header {
+    background-image: url(../../images/other/OtherHeader.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 8rem;
+    padding-left: 10rem;
+    color: white;
+    font-weight: 600;
+    font-size: clamp(3rem, 1rem + 10vh, 5rem);
+}
+
+#overview {
+    display: flex;
+    margin: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-reel {
+    display: grid;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.other-reel > * {
+    scroll-snap-align: start;
+}
+
+.other-reel-images {
+    width: 15rem;
+    object-fit: cover;
+}
