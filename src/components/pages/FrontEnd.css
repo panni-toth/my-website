@@ -1,0 +1,11 @@
+.frontend-header {
+    background-image: url(../../images/frontendheader.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 6rem;
+    padding-left: 10rem;
+    color: white;
+    font-weight: 600;
+    font-size: clamp(3rem, 1rem + 10vh, 5rem);
+}

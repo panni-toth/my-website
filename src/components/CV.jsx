@@ -107,7 +107,7 @@ const CV = () => {
                 <p>panni-toth</p>
                 <br></br>
                 <h3>LinkedIn</h3>
-                <p>link</p>
+                <p>www.linkedin.com/in/panni-toth-design</p>
                 <br></br>
                 <h3>Instagram</h3>
                 <p>@panni_toth_</p>
