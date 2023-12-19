@@ -8,22 +8,31 @@ import PrintsLink from '../../images/homeMenu2.JPG';
 import FrontEndLink from '../../images/homeMenu4.JPG';
 
 export default function Home() {
+
+    const scrollToTop = () => {
+        console.log('Clicked link, scrolling to top');
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', 
+        });
+      }
+
     return (
         <>
             <div className="hero-container">
                 <div>Welcome to <br></br>my portfolio!</div>
-                <Link to="/about">
+                <Link to="/about" onClick={scrollToTop}>
                     <button className="transparent-button">Find out more about me</button>
                 </Link>
              </div>
 
             <h1 id="whatIDo">What I do</h1>
              <div className="list-boxes-container"> 
-                <HomeListContainer page="/fashion" image={FashionLink} pageName="Fashion Design" alt="Fashion Link"/>
-                <HomeListContainer page="/prints" image={PrintsLink} pageName="Print Design" alt="Print Design Link" />
-                <HomeListContainer page="/web-design" image="image3" pageName="Web Design" alt="Web Design Link" />
-                <HomeListContainer page="/front-end" image={FrontEndLink} pageName="Front End Development" alt="Front End Development Link" />
-                <HomeListContainer page="/projects" image={OtherLink} pageName="Other Projects" alt="Other Projects Link" />
+                <HomeListContainer page="/fashion" image={FashionLink} pageName1="Fashion" pageName2="Design" alt="Fashion Link"/>
+                <HomeListContainer page="/prints" image={PrintsLink} pageName1="Print" pageName2="Design" alt="Print Design Link" />
+                <HomeListContainer page="/web-design" image="image3" pageName1="Web" pageName2="Design" alt="Web Design Link" />
+                <HomeListContainer page="/front-end" image={FrontEndLink} pageName1="Front End Development" pageName2="" alt="Front End Development Link" />
+                <HomeListContainer page="/projects" image={OtherLink} pageName1="Other" pageName2="Projects" alt="Other Projects Link" />
              </div>
             
         </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './Prints.css';
 import keserücover from '../../images/prints/keserü/keserücover.jpg';
 import swanscover from '../../images/prints/swans/swanscover.JPG';
@@ -11,19 +12,29 @@ function Prints() {
         <div className="prints-header">Print Design</div>
         <h1 id="print-projects">Projects</h1>
         <div className="print-reel">
-            <Reel src={keserücover} alt="Keserü Project" title="KESERÜ"/>
-            <Reel src={swanscover} alt="Swans Project" title="SWANS, LEAVES & STRIPES"/>
-            <Reel src={watercolorcover} alt="Keserü Project" title="KESERÜ"/>
-            <Reel src={handscover} alt="Hands Project" title="HANDS"/>
+            <Reel src={keserücover} alt="Keserü Project" title="KESERÜ" page="/keseru-print" />
+            <Reel src={swanscover} alt="Swans Project" title="SWANS, LEAVES & STRIPES" page="/swans" />
+            <Reel src={watercolorcover} alt="Mini Collections" title="MINI COLLECTIONS" page="/print-mini-collections" />
+            <Reel src={handscover} alt="Hands Project" title="HANDS & screen printing" page="/hands" />
         </div>
         </>
         
 )}
 
-function Reel({ src, alt, title }) {
+const scrollToTop = () => {
+    console.log('Clicked link, scrolling to top');
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', 
+    });
+  }
+
+function Reel({ src, alt, title, page }) {
     return (
         <div>
-        <img src={src} alt={alt} className="print-reel-images"></img>
+        <Link to={page} onClick={scrollToTop}>
+         <img src={src} alt={alt} className="print-reel-images"></img>
+        </Link>
         <div>{title}</div>
     </div>
     )

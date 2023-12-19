@@ -9,6 +9,14 @@ import About from './components/pages/About';
 import Home from './components/pages/Home';
 import { Route, Routes } from "react-router-dom";
 import BottomNav from './components/BottomNav';
+import KeseruFashion from './components/pages/subPages/KeseruFashion';
+import Instincts from './components/pages/subPages/Instincts';
+import Shirt from './components/pages/subPages/Shirt';
+import OpArt from './components/pages/subPages/OpArt';
+import KeseruPrint from './components/pages/subPages/KeseruPrint';
+import Swans from './components/pages/subPages/Swans';
+import MiniColPrints from './components/pages/subPages/MiniColPrints';
+import Hands from './components/pages/subPages/Hands';
 
 function App() {
 
@@ -23,6 +31,14 @@ function App() {
         <Route path="/front-end" element={ <FrontEnd/>}/>
         <Route path="/projects" element={ <OtherProjects/>}/>
         <Route path="/about" element={ <About/>}/>
+        <Route path="/keseru-fashion" element={ <KeseruFashion/>}/> 
+        <Route path="/instincts" element={ <Instincts/>}/>  
+        <Route path="/shirt" element={ <Shirt/>}/>
+        <Route path="/op-art" element={ <OpArt/>}/>
+        <Route path="/keseru-print" element={ <KeseruPrint/>}/>
+        <Route path="/swans" element={ <Swans/>}/>
+        <Route path="/print-mini-collections" element={ <MiniColPrints/>}/>
+        <Route path="/hands" element={ <Hands/>}/>
       </Routes>
       <BottomNav />
     </>
