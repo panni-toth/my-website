@@ -73,16 +73,29 @@ const CV = () => {
         {activeButton === 'button3' && 
             <div>
                 <h2>Software</h2>
-                <p>Skilllzzz</p>
+                <p>React</p>
+                <p>JavaScript, HTML, CSS</p>
+                <p>Git</p>
+                <p>Adobe Photoshop, Illustrator, InDesign and PremierePro</p>
+                <p>Figma</p>
+                <p>Microsoft Office</p>
                 <br></br>
                 <h2>Languages</h2>
-                <p>Skilllzzz</p>
+                <p>English - Fluent</p>
+                <p>Spanish - Advanced</p>
+                <p>German - Beginner</p>
+                <p>Hungarian - Native Speaker</p>
                 <br></br>
                 <h2>Soft Skills</h2>
-                <p>Skilllzzz</p>
+                <p>Problem-solving</p>
+                <p>Strong communication skills - written, spoken, visual</p>
+                <p>Team player</p>
+                <p>Ability to work under pressure</p>
+                <p></p>Fast learner
+                <p>Time management</p>
                 <br></br>
                 <h2>Other</h2>
-                <p>Skilllzzz</p>
+                <p>Driving Licence - Car</p>
                 <br></br>
             </div>
             }
