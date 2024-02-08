@@ -36,4 +36,15 @@
 .other-reel-images {
     width: 15rem;
     object-fit: cover;
+    transition: transform 0.3s ease-out;
+}
+
+.other-reel-image-wrapper {
+    width: 15rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+.other-reel-images:hover {
+    transform: scale(1.2);
 }

@@ -20,7 +20,8 @@ export default function Home() {
     return (
         <>
             <div className="hero-container">
-                <div>Welcome to <br></br>my portfolio!</div>
+                <div>Panni</div>
+                <div>Toth</div>
                 <Link to="/about" onClick={scrollToTop}>
                     <button className="transparent-button">Find out more about me</button>
                 </Link>

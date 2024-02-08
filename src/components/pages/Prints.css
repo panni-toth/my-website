@@ -29,6 +29,12 @@
     scroll-snap-type: x mandatory;
 }
 
+.print-reel-image-wrapper {
+    width: 30rem;
+    overflow: hidden;
+    position: relative;
+  }
+
 .print-reel > * {
     scroll-snap-align: start;
 }
@@ -36,4 +42,9 @@
 .print-reel-images {
     width: 30rem;
     object-fit: cover;
+    transition: transform 0.3s ease-out;
+}
+
+.print-reel-images:hover {
+    transform: scale(1.2);
 }

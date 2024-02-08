@@ -13,7 +13,7 @@ function Fashion() {
             <h1 id="my-projects">Projects</h1>
             <div className="fashion-reel">
                 <FashionReel src={InstinctsCover} alt="Instincts link" title="INSTINCTS" page="/instincts" />
-                <FashionReel src={KeserüCover} alt="Keserü link" title="KESERÜ" page="/keseru" />
+                <FashionReel src={KeserüCover} alt="Keserü link" title="KESERÜ" page="/keseru-fashion" />
                 <FashionReel src={ShirtCover} alt="Shirt link" title="SHIRT" page="/shirt" />
                 <FashionReel src={OpArtCover} alt="Op Art link" title="OP ART" page="/op-art" />
             </div>

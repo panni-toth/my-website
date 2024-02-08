@@ -1,8 +1,9 @@
 .hero-container {
-    background-image: url(../../images/PanniHome2.jpeg);
+    background-image: url(../../images/homeBG.JPG);
     background-position: center;
-    background-size: cover;
-    height: 60vh;
+    background-size: containauto 100%;
+    height: 100vh;
+    width: 100vw;
     padding-top: 5rem;
     padding-left: 10rem;
     color: white;
@@ -26,7 +27,7 @@
   align-items: center; /* Center children horizontally */
   text-align: center;
     width: 14rem;
-    color: #213168;
+    color: #d9e1fc;
     height: 20rem;
     justify-content: center;
     padding: 20px;

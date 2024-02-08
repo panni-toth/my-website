@@ -31,7 +31,7 @@ const scrollToTop = () => {
 
 function Reel({ src, alt, title, page }) {
     return (
-        <div>
+        <div className="print-reel-image-wrapper">
         <Link to={page} onClick={scrollToTop}>
          <img src={src} alt={alt} className="print-reel-images"></img>
         </Link>

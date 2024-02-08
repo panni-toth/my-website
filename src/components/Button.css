@@ -5,7 +5,8 @@
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 2px solid white;
+    border: 1px solid white;
+    border-radius: 25px;
     color: white;
     background-color: transparent;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
@@ -17,17 +18,40 @@
     border-color: #e2d6ff;
   }
 
+  .navbar-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: rgba(38, 38, 38, 0.082);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin: 0.5rem;
+  }
+  
+  .navbar-button:hover {
+    background-color: #8f98ff;
+    color: #ffffff;
+    border-color: #8f98ff;
+  }
+
   .button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
+    border-radius: 25px;
     cursor: pointer;
-    border: 2px solid #213168;
+    border: 1px solid #213168;
     color: #213168;
     background-color: white;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin: 0.5rem;
   }
   
   .button:hover {

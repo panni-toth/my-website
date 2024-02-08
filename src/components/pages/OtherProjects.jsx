@@ -25,7 +25,7 @@ function OtherProjects() {
 
 function Reel({ src, alt, title }) {
     return (
-        <div>
+        <div className="other-reel-image-wrapper">
         <img src={src} alt={alt} className="other-reel-images"></img>
         <div>{title}</div>
     </div>
